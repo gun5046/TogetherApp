@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="include/header :: header" />
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6">
+				<div class="card shadow">
+					<div class="card-body">
+						<!-- <div class="form-group">
+							<div class="input-group">
+								<input type="text" name="zip_code" id="zip_code"
+									class="form-control" placeholder="우편번호" readonly="true" />
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<div class="input-group-append">
+									<button type="button" class="btn btn-warning"
+										onclick="getAddress()">우편번호 찾기</button>
+									<br />
+								</div>
+							</div>
+							<br />
+							<div class="input-group">
+								<input type="text" name="main_addr" id="main_addr"
+									class="form-control" placeholder="주소" readonly="true" /><br />
+							</div>
+							<br />
+							<div class="input-group">
+								<input type="text" name="reference_addr" id="reference_addr"
+									class="form-control" placeholder="참고주소" readonly="true" />
+							</div>
+							<div class="input-group" style = "margin-top:25px;">
+								<input name="detail_addr" id="detail_addr" type="text"
+										class="form-control" placeholder="상세주소" />
+							</div>
+						</div> -->
+
+						<div id="wrap"
+							style="width : 100%; display: block; border: 1px solid; width: 500px; height: 300px; margin: 5px 0; position: relative">
+							<!-- <img src="//t1.daumcdn.net/postcode/resource/images/close.png"
+								id="btnFoldWrap"
+								style="cursor: pointer; position: absolute; right: 0px; top: -1px; z-index: 1"
+								onclick="foldDaumPostcode()" alt="접기 버튼"> -->
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script
+		src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+	<script src="/js/address.js"></script>
+</body>
+</html>

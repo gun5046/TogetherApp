@@ -1,0 +1,52 @@
+spring:
+  datasource:
+    url: jdbc:mysql://101.101.211.13:3306/together?useSSL=true&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: root
+    password: Qawsed12!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+      
+  mail: 
+    host: smtp.gmail.com
+    port: 587
+    username: sky114z21@gmail.com
+    password: na6080su12!@
+    properties:
+      mail: 
+        smtp: 
+          auth: true
+          starttls: 
+            enable: true
+            required: true
+  
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate: 
+        default_batch_fetch_size: 100
+        #        show_sql: true
+        format_sql: true
+
+  devtools:
+    restart:
+      enabled: true
+
+  thymeleaf:
+    cache: false
+
+#server: 
+#    servlet: 
+#      charset: UTF-8
+#      enabled: true
+#      force: true
+
+#logging:
+#  level:
+#    org.hibernate.SQL: debug
+#    org.hibernate.type: trace
