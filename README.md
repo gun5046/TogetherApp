@@ -85,3 +85,7 @@
 13. File_version - 파일 버전 정보. 업데이트시 Comment 기록.
 ```
 
+## 주요 서비스 - 파일 공유 기능 Data Flow
+
+![image](https://user-images.githubusercontent.com/48385816/147059093-a1cab1f3-f7af-48ea-a6a4-2efb495b4537.png)
+![image](https://user-images.githubusercontent.com/48385816/147059190-aff00143-ce64-4680-ae4d-e6654eb5c97d.png)
