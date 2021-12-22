@@ -40,8 +40,8 @@
 
 #### * 실시간 문서 협업에 대해..(구현은 X)
 
+![image](https://user-images.githubusercontent.com/48385816/147059871-f671ef8c-f194-43f9-b671-92c96850efec.png)
 ```
-  ![image](https://user-images.githubusercontent.com/48385816/147059871-f671ef8c-f194-43f9-b671-92c96850efec.png)
   기본적으로 유저가 키보드 입력시 이벤트가 발생하여 DOM객체를 생성하고 화면에 렌더링 시키는 과정으로 문서편집기는 동작합니다.(위 그림)
   실시간 문서 협업을 위한 한 방법으로, 유저의 입력 내용으로 DOM객체를 생성하고 서버를 통해 DOM객체를 전송시켜 렌더링 시키는 과정을 생각해보았습니다.
   
